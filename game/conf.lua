@@ -20,8 +20,8 @@ function love.conf(t)
 	t.audio.mic             = false
 	t.audio.mixwithsystem   = true
 
-	t.window.title          = "Untitled"
-	t.window.icon           = nil
+	t.window.title          = "Crocodile Shooter!"
+	t.window.icon           = "assets/crocodile.png"
 	t.window.width          = 800
 	t.window.height         = 600
 	t.window.borderless     = false
