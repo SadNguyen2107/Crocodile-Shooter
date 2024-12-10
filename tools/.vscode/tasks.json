@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "Build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: Build",
+			"detail": "cd ../game && makelove --config ../tools/build/makelove.toml"
+		}
+	]
+}
